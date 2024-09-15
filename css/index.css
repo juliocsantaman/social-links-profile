@@ -3,6 +3,9 @@ body {
   font-size: 0.875rem;
   display: grid;
   place-items: center;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  margin: 0rem;
 }
 
 .card {
@@ -11,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 0.5rem;
+  border-radius: 0.6rem;
   padding: 1.6rem 0rem 1.6rem 0rem;
 }
 
@@ -30,13 +33,15 @@ body {
 
 .card__profile-name {
   margin: 1rem 0rem 0rem 0rem;
+  font-weight: 600;
 }
 
 .card__profile-about {
   margin-bottom: 1.8rem;
+  color: hsl(0, 0%, 80%);
 }
 
-.card__profile-name, .card__profile-about, .card__social-link {
+.card__profile-name, .card__social-link {
   color: hsl(0, 0%, 100%);
 }
 
@@ -52,8 +57,15 @@ body {
   padding: 1rem 0rem;
   text-align: center;
   text-decoration: none;
+  font-weight: 700;
+}
+
+.card__social-link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: #000000;
 }
 
 .card__profile-location {
   color: hsl(75, 94%, 57%);
+  font-weight: 400;
 }
