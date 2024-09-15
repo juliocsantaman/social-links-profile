@@ -1,0 +1,59 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-size: 0.875rem;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  width: 90%;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 1.6rem 0rem 1.6rem 0rem;
+}
+
+.card__profile-container, .card__social-links-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__profile-image {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.card__profile-name {
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+.card__profile-about {
+  margin-bottom: 1.8rem;
+}
+
+.card__profile-name, .card__profile-about, .card__social-link {
+  color: hsl(0, 0%, 100%);
+}
+
+.card__social-links-container {
+  gap: 1rem;
+}
+
+.card__social-link {
+  background-color: hsl(0, 0%, 18%);
+  color: hsl(0, 0%, 100%);
+  width: 90%;
+  border-radius: 0.5rem;
+  padding: 1rem 0rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.card__profile-location {
+  color: hsl(75, 94%, 57%);
+}
